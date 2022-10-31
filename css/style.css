@@ -6,6 +6,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+div {
+    display: inline-block;
+}
+
 body {
     background-color: hsl(185, 75%, 39%);
     font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
@@ -32,11 +37,52 @@ body {
 
 .profile {
     position: relative;
-    left: 3.1cm;
+    left: 1.9cm;
     top: -1cm;
     outline-style: solid;
     outline-width: 0.2cm;
     outline-color: white;
     border-width: 0.1cm;
     z-index: 9999;
+}
+
+.title {
+    position: relative;
+    top: -1cm;
+    left: 1.6cm;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+.city {
+    position: relative;
+    left: 0.6cm;
+}
+
+.city, .age {
+    color: hsl(185, 75%, 39%);
+}
+
+.stats {
+    border-top-style: solid;
+    border-top-color: hsl(225, 3%, 77%);
+    border-top-width: 0.1px;
+    position: relative;
+    top: -0.2cm;
+    padding-top: 0.5cm;
+    width: 100%;
+    text-indent: 0.5cm;
+}
+
+.follower-number {
+    font-size: 18px;
+    color: hsl(227, 18%, 26%);
+    position: relative;
+    left: -0.5cm;
+}
+
+.followers {
+    color: hsl(228, 12%, 44%);
+    position: relative;
+    left: -0.5cm;
 }
