@@ -86,3 +86,17 @@ body {
     position: relative;
     left: -0.5cm;
 }
+
+
+.likes-number {
+    font-size: 18px;
+    color: hsl(227, 18%, 26%);
+    position: relative;
+    left: 0.5cm;
+    top: -0.5cm;
+}
+
+.likes-word {
+    position: relative;
+    left: -0.65cm;
+}
